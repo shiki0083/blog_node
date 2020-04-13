@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const config = require('../config/config')
+const config = require('../config/normal_config')
 const github = require('../config/github')
 const weibo = require('../config/weibo')
 const fetch = require('node-fetch')

@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken')
-const { SECRET_KEY, JWT_EXPIRES, REFRESH_JWT_EXPIRES } = require('../config/config')
+const { SECRET_KEY, JWT_EXPIRES, REFRESH_JWT_EXPIRES } = require('../config/normal_config')
 const { cacheUser } = require('../cache/user')
 
 /**
